@@ -1,7 +1,12 @@
 :root {
 	--dark-1: #111111;
 	--dark-2: #555555;
+	--dark-3: #777777;
+	--dark-4: #999999;
+	--light-1: #ffffff;
+	--light-2: #eeeeee;
 	--pink: #ff3998;
+	--orange: #ff8139;
 }
 
 @font-face {
@@ -47,14 +52,59 @@ body {
 	margin-bottom: 126px;
 }
 
+.showcase {
+	margin-bottom: 150px;
+}
 .showcase a:hover,
 .showcase a:focus,
 .showcase a:active {
 	color: var(--dark-1);
 }
+.showcase .card {
+	max-width: 280px;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 11px;
+}
+.showcase .card:nth-child(1) {
+	background-image: url(../images/item-1.png);
+}
+.showcase .card:nth-child(2) {
+	background-image: url(../images/item-2.png);
+	background-color: #282828;
+}
+.showcase .card:nth-child(3) {
+	background-image: url(../images/item-3.png);
+}
+.showcase .card:nth-child(4) {
+	background-image: url(../images/item-4.png);
+	background-color: #282828;
+}
+.showcase .card .row {
+	--bs-gutter-x: 0;
+}
+.showcase img {
+	max-width: 290px;
+	max-height: 278px;
+}
 
-.img-responsive {
-	max-width: 100%;
+.footer .container > .row {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.footer .social-group i {
+	width: 18px;
+	height: 18px;
+}
+.footer .social-group a:hover,
+.footer .social-group a:focus,
+.footer .social-group a:active {
+	color: var(--dark-4);
+}
+
+.bg-light-2 {
+	background-color: var(--light-2);
 }
 
 .ff-medium {
@@ -70,9 +120,17 @@ body {
 	font-family: "Inter-Bold";
 }
 
+.fs-12 {
+	font-size: 12px;
+	line-height: 12px;
+}
 .fs-16 {
 	font-size: 16px;
 	line-height: 20px;
+}
+.fs-18 {
+	font-size: 18px;
+	line-height: 18px;
 }
 .fs-20 {
 	font-size: 20px;
@@ -82,6 +140,10 @@ body {
 	font-size: 40px;
 	line-height: 49px;
 }
+.fs-54 {
+	font-size: 56px;
+	line-height: 68px;
+}
 .fs-96 {
 	font-size: 96px;
 	line-height: 117px;
@@ -90,12 +152,25 @@ body {
 .lh-30 {
 	line-height: 30px;
 }
+
+.text-light-1 {
+	color: var(--light-1);
+}
 .text-dark-1 {
 	color: var(--dark-1);
 }
 .text-dark-2 {
 	color: var(--dark-2);
 }
+.text-dark-3 {
+	color: var(--dark-3);
+}
+.text-dark-4 {
+	color: var(--dark-4);
+}
 .text-pink {
 	color: var(--pink);
+}
+.text-orange {
+	color: var(--orange);
 }
