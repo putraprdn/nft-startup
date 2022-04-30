@@ -14,7 +14,7 @@ The original design is [here.](https://www.figma.com/file/iBSfBXdbC7mdz46t709TD4
 _Currently under development_
 
 -   [x] Main Content
--   [ ] Active state
+-   [x] Active state
 -   [ ] Responsive
 
 ### Thumbnail
