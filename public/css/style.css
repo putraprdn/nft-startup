@@ -32,6 +32,35 @@ body {
 	font-family: "Inter-Medium";
 }
 
+.btn-outline-primary,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+	border: 1px solid transparent;
+	background: linear-gradient(#fff 0 0) padding-box,
+		/*this is your grey background*/
+			linear-gradient(
+				76deg,
+				rgba(255, 57, 152, 1) 0%,
+				rgba(255, 57, 57, 1) 32%,
+				rgba(255, 129, 57, 1) 51%,
+				rgba(255, 129, 57, 1) 69%,
+				rgba(57, 255, 160, 0.9499999829033176) 100%
+			)
+			border-box;
+	background-color: unset;
+	color: inherit;
+	box-shadow: none !important;
+	/* background: linear-gradient(
+		76deg,
+		rgba(255, 57, 152, 1) 0%,
+		rgba(255, 57, 57, 1) 32%,
+		rgba(255, 129, 57, 1) 51%,
+		rgba(255, 129, 57, 1) 69%,
+		rgba(57, 255, 160, 0.9499999829033176) 100%
+	); */
+}
+
 .navbar .active {
 	color: var(--pink) !important;
 }
@@ -46,6 +75,14 @@ body {
 }
 .upsell .wrap {
 	padding-top: 156px !important;
+	background: linear-gradient(
+		76deg,
+		rgba(255, 57, 152, 1) 0%,
+		rgba(255, 57, 57, 1) 32%,
+		rgba(255, 129, 57, 1) 51%,
+		rgba(255, 129, 57, 1) 69%,
+		rgba(57, 255, 160, 0.9499999829033176) 100%
+	);
 }
 
 .press {
