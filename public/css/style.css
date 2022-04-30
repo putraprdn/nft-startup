@@ -1,0 +1,101 @@
+:root {
+	--dark-1: #111111;
+	--dark-2: #555555;
+	--pink: #ff3998;
+}
+
+@font-face {
+	font-family: "Inter-Regular";
+	src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Inter-Medium";
+	src: url(../fonts/Inter-Medium.ttf);
+}
+
+@font-face {
+	font-family: "Inter-Black";
+	src: url(../fonts/Inter-Black.ttf);
+}
+@font-face {
+	font-family: "Inter-Bold";
+	src: url(../fonts/Inter-Bold.ttf);
+}
+
+body {
+	font-family: "Inter-Medium";
+}
+
+.navbar .active {
+	color: var(--pink) !important;
+}
+
+.hero {
+	margin-top: 150px;
+	margin-bottom: 150px;
+}
+
+.upsell {
+	margin-bottom: 126px;
+}
+.upsell .wrap {
+	padding-top: 156px !important;
+}
+
+.press {
+	margin-bottom: 126px;
+}
+
+.showcase a:hover,
+.showcase a:focus,
+.showcase a:active {
+	color: var(--dark-1);
+}
+
+.img-responsive {
+	max-width: 100%;
+}
+
+.ff-medium {
+	font-family: "Inter-Medium";
+}
+.ff-regular {
+	font-family: "Inter-Regular";
+}
+.ff-black {
+	font-family: "Inter-Black";
+}
+.ff-bold {
+	font-family: "Inter-Bold";
+}
+
+.fs-16 {
+	font-size: 16px;
+	line-height: 20px;
+}
+.fs-20 {
+	font-size: 20px;
+	line-height: 20px;
+}
+.fs-40 {
+	font-size: 40px;
+	line-height: 49px;
+}
+.fs-96 {
+	font-size: 96px;
+	line-height: 117px;
+}
+
+.lh-30 {
+	line-height: 30px;
+}
+.text-dark-1 {
+	color: var(--dark-1);
+}
+.text-dark-2 {
+	color: var(--dark-2);
+}
+.text-pink {
+	color: var(--pink);
+}
